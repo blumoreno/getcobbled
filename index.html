@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 
+<style>
+  html {
+    background: rgb(65,67,106);
+    color: white;
+  }
+</style>
+
+<html>
+<style>
+  .menu-button {
+    background-color: rgb(246,70,104);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+</style>
+
 <p>
-  <button>
+  <button class="menu-button">
     <a href="https://getcobbled.com">Home</a>
   </button>
-  <button>About</button>
-  <button>Services</button>
-  <button>
+  <button class="menu-button">About</button>
+  <button class="menu-button">Services</button>
+  <button class="menu-button">
     <a href="https://minecraft.net/" target="_blank">minecraft.net</a>
   </button>
 </p>
@@ -28,16 +48,29 @@
   I am creating this website to share my thoughts and learn more about HTML, CSS, and eventually JS.
 </p>
 
+<style>
+  .color-palette {
+    background-color: white;
+    
+  }
+</style>
 <h2>
   Sevices
 </h2>
 <p>
-  This is the services section of my website.
+  Current color palette is:
+  41436A, 984063, F64668, FE9677
 </p>
-
+<p>Current color palette in RGB is: </p> 
+<p class="color-palette" style="color: rgb(65,67,106);">rgb(65,67,106), </p>
+<p class="color-palette" style="color: rgb(152,64,99);">rgb(152,64,99), </p>
+<p class="color-palette" style="color: rgb(246,70,104);">rgb(246,70,104), </p>
+<p class="color-palette" style="color: rgb(254,150,119);">rgb(254,150,119), </p>
+</body>
 <h2>
   Minecraft
 </h2>
 <p>
   I am currently hosting a Minecraft server at mc.getcobbled.com
 </p>
+</html>
