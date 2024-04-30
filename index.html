@@ -1,15 +1,8 @@
 <!DOCTYPE html>
-
-<style>
-  html {
-    background: rgb(65,67,106);
-    color: white;
-  }
-</style>
-
 <html>
+
 <style>
-  .menu-button {
+  .menu-buttons {
     background-color: rgb(246,70,104);
     color: white;
     border: none;
@@ -17,16 +10,33 @@
     width: 100px;
     border-radius: 4px;
     cursor: pointer;
+    margin-right: 20px;
+    transition: opacity .15s;
+  }
+  .menu-buttons:hover {
+    opacity: 0.75;
+  }
+  .menu-buttons:active {
+    opacity: 0.5;
+  }
+
+  .color-palette {
+    background-color: white;
+  }
+  html {
+    background: rgb(65,67,106);
+    color: white;
   }
 </style>
 
+
 <p>
-  <button class="menu-button">
+  <button class="menu-buttons">
     <a href="https://getcobbled.com">Home</a>
   </button>
-  <button class="menu-button">About</button>
-  <button class="menu-button">Services</button>
-  <button class="menu-button">
+  <button class="menu-buttons">About</button>
+  <button class="menu-buttons">Services</button>
+  <button class="menu-buttons">
     <a href="https://minecraft.net/" target="_blank">minecraft.net</a>
   </button>
 </p>
@@ -48,14 +58,8 @@
   I am creating this website to share my thoughts and learn more about HTML, CSS, and eventually JS.
 </p>
 
-<style>
-  .color-palette {
-    background-color: white;
-    
-  }
-</style>
 <h2>
-  Sevices
+  Colors
 </h2>
 <p>
   Current color palette is:
@@ -73,4 +77,37 @@
 <p>
   I am currently hosting a Minecraft server at mc.getcobbled.com
 </p>
+
+<h1>
+  CSS Button Practice
+</h1>
+
+<style>
+  .Uber-button {
+    border: none;
+    background-color: black;
+    width: 120px;
+    height: 36px;
+    color: white;
+    cursor: pointer;
+  }
+  .Amazon-button {
+    border: none;
+    color: black;
+    background-color: rgb(255, 216, 20);
+    height: 36px;
+    width: 150px;
+    border-radius: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+</style>
+
+<p>
+  <button class="Uber-button">Request now</button>
+  <button class="Amazon-button">Add to Cart</button>
+</p>
+
+
+
 </html>
