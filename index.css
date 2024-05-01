@@ -1,0 +1,45 @@
+.menu-buttons {
+    background-color: rgb(246,70,104);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 15px;
+    transition: opacity .15s,
+      box-shadow .15s,
+      padding .15s;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .menu-buttons:hover {
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, .15);
+    opacity: 0.75;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .menu-buttons:active {
+    opacity: 0.5;
+  }
+  html {
+    background: rgb(65,67,106);
+    color: white;
+    font-family: Roboto;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .site-title {
+    text-align: center;
+  }
+  .color-palette {
+    width: 129px;
+    background-color: white;
+    text-align: center;
+  }
+  .about-text {
+    line-height: 22px;
+  }
