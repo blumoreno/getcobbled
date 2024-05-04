@@ -1,73 +1,95 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Get Cobbled!</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Get Cobbled</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/header-and-nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+    </style>  
   </head>
-
   <body>
-    <button class="menu-buttons">
-      <a href="https://getcobbled.com">Home</a>
-    </button>
-    <button class="menu-buttons">
-      About
-    </button>
-    <button class="menu-buttons">
-      Services
-    </button>
-    <button class="menu-buttons">
-      <a href="https://minecraft.net/" target="_blank">
-        minecraft.net
-      </a>
-    </button>
-    <h1 class="site-title">
-      Welcome to Get Cobbled!
-    </h1>
-    <h2>
-      Home
-    </h2>
-    <p>
-      Welcome to my website.
-    </p>
-    <h2>
-      About
-    </h2>
-    <p class="about-text">
-      I am creating this website to share my thoughts and learn more about HTML, CSS, and eventually JS.
-    </p>
-    <h2>
-      Colors
-    </h2>
-    <p class="colors-text">
-      Current color palette in hex is:
-      41436A, 984063, F64668, FE9677
-    </p>
-    <p>Current color palette in RGB is: </p> 
-    <p class="color-palette" style="color: rgb(65,67,106);">
-      rgb(65,67,106), 
-    </p>
-    <p class="color-palette" style="color: rgb(152,64,99);">
-      rgb(152,64,99), 
-    </p>
-    <p class="color-palette" style="color: rgb(246,70,104);">
-      rgb(246,70,104), 
-    </p>
-    <p class="color-palette" style="color: rgb(254,150,119);">
-      rgb(254,150,119), 
-    </p>
-    <h2>
-      Minecraft
-    </h2>
-    <p>
-      I am currently hosting a Minecraft server at mc.getcobbled.com
-    </p>
-    <h1>
-      Panda Section
-    </h1>
-    <p>This is the section for pandas</p>
-    <img src="pictures/baby-panda.jpg">
-    </body>
+    <header>
+      <div class="left-section">
+        <a href="https://getcobbled.com/">
+          <div>Get Cobbled</div>
+        </a>
+      </div>
+      <div class="middle-section">
+        <div>US Edition</div>
+        <img class="US-logo" src="icons/US.svg">
+      </div>
+      <div class="right-section">
+        <div class="quick-links-container">
+          <button class="quick-links">
+            <a href="https://mcsrvstat.us/server/mc.getcobbled.com" target="_blank">
+              <img src="icons/minecraft-logo.png">
+            </a>
+          </button>
+          <button class="quick-links">
+            <a href="https://github.com/blumoreno/getcobbled/" target="_blank">
+              <img src="icons/Github-Logo.png">
+            </a>
+          </button>
+          <button class="quick-links"><a href="https://youtu.be/dQw4w9WgXcQ?si=Hy0aa9iYDlu5nQ3z/" target="_blank">
+            <img src="icons/youtube-logo.png">
+          </a></button>
+        </div>
+        <div class="search-container">
+          <div>Search</div>
+
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div>
+        <a class="nav-link" href="https://getcobbled.com/">Home</a>
+      </div>
+      <div>
+        <a class="nav-link">Technology</a>
+      </div>
+      <div>
+        <a class="nav-link">Topic 2</a>
+      </div>
+      <div>
+        <a class="nav-link">Topic 3</a>
+      </div>
+    </nav>
+    <main>
+      <section class="content">
+        <div class="large-content-container">
+          <button>
+            <a href="https://www.tomshardware.com/pc-components/gpus/rtx-4060-ti-vs-rx-7700-xt-faceoff-which-midrange-graphics-card-is-superior/">
+            <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+            <p class="content-title">RTX 4060 Ti vs RX 7700 XT faceoff: Which midrange graphics card is superior?</p>
+            <p class="content-summary"> AMD's midrange RDNA3 GPU takes on Nvidia's RTX 4060 Ti 8GB and 16GB cards</p>
+            </a>
+          </button>
+        </div>
+
+        <div class="content-section-label">Panda Section
+        </div>
+
+        <!-- Line Content -->
+        <a href="https://giphy.com/search/cute-baby-pandas" target="_blank">
+          <div class="line-content-container">
+            <div class="line-thumbnail-container">
+              <img class="thumbnail" src="thumbnail/baby-panda.jpg">
+            </div>
+            <p class="line-content-title">Click here to see cute pandas! </p>
+          </div>
+        <a>
+        <!-- Minecraft Section-->
+        <div class="content-section-label">
+          Minecraft Section
+        </div>
+        <div class="content-summary">
+          I am currently Hosting a Minecraft Server at mc.getcobbled.com
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
