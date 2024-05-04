@@ -1,0 +1,18 @@
+body {
+  font-family: roboto, arial;
+  margin: 105px 0 1000px 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.content button {
+  padding: 0;
+}
+.content a,
+button {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(255, 255, 255, 0);
+  border: none
+}

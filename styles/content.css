@@ -1,0 +1,45 @@
+.large-content-container {
+  padding: 15px 15px 15px 0;
+}
+.line-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  height: 61px;
+  width: 100%;
+  padding: 10px 10px 10px 20px;
+  border: dotted 1px;
+  border-color:  gray
+}
+.line-thumbnail-container {
+  width: 80px;
+}
+.thumbnail {
+  width: 100%;
+  padding-bottom: 6px;
+}
+.content-title {
+  padding: 0px 40px 7px 20px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.line-content-title {
+  padding: 0px 40px 7px 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.content-summary {
+  padding: 0 45px 0 20px;
+  color: rgb(58, 58, 58);
+}
+.content-section-label {
+  left: 0;
+  right: 0;
+  background-color: rgb(77, 45, 145);
+  color: white;
+  font-weight: 600;
+  padding: 17px;
+  margin: 21px 0 21px 0;
+  text-transform: uppercase;
+}

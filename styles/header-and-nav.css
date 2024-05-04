@@ -1,0 +1,85 @@
+/* Header and Nav in General*/
+/* Setting divs as flexboxes */
+.right-section,
+.quick-links-container,
+.quick-links,
+header, nav {
+  display: flex;
+  align-items: center;
+}
+header, nav {
+  position:absolute;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  padding: 0 25px 0 25px
+}
+/* Header in Specific */
+header {
+  height: 61px;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+header a {
+  color:black;
+  text-decoration: none;
+}
+/* Middle Section of Header */
+.middle-section {
+  display: flex;
+  font-size: 12px;
+  flex: 1;
+  height: 59px;
+  border-color: rgba(0,0,0,0) rgba(128, 128, 128, 0.311) rgba(0,0,0,0) rgba(0,0,0,0);
+  border-style: solid;
+  border-width: 1px;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: right;
+}
+.US-logo {
+  width: 20px;
+  margin-left: 5px;
+}
+/* Right Section of Header */
+.quick-links-container {
+  column-gap: 5px;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.quick-links {
+  width: 25px;
+  background-color: white;
+  border-style: none;
+  justify-content: center;
+}
+.quick-links img,
+.quick-links {
+  height: 25px;
+  border-radius: 50%;
+}
+.quick-links:hover img,
+.quick-links {
+  opacity: 0.85;
+  transition: opacity 0.15s;
+}
+.search-container {
+  margin: 0 0 0 10px;
+}
+/* Navigation */
+nav {
+  height: 44px;
+  top: 61px;
+  background-color: rgb(77, 45, 145);
+}
+.nav-link {
+  height: 30px;
+  cursor: pointer;
+  vertical-align: center;
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
