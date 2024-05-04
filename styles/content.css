@@ -23,6 +23,7 @@
   font-size: 24px;
   line-height: 30px;
   font-weight: 600;
+  text-align: left;
 }
 .line-content-title {
   padding: 0px 40px 7px 20px;
@@ -32,6 +33,7 @@
 .content-summary {
   padding: 0 45px 0 20px;
   color: rgb(58, 58, 58);
+  text-align: left;
 }
 .content-section-label {
   left: 0;
